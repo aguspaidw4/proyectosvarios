@@ -2,30 +2,36 @@ import logo from './logo.svg';
 import './App.css';
 
 //importamos el componente navegacion
-import Navegacion from './components/Navegacion';
+import Navegacion from './componentes/navegacion';
 
 
 function App() {
   return (
+
     <>
-      <Navegacion />
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+
+    <Navegacion />
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>    
+    
+    
+    
     </>
+
   );
 }
 
