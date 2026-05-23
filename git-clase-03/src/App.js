@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 //importamos el componente navegacion
-import Navegacion from './components/navegacion';
+import Navegacion from './componentes/navegacion';
 import Footer from './componentes/Footer';
 
 
